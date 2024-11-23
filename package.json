@@ -1,0 +1,12 @@
+{
+  "name": "botzin-banidor-vip",
+  "version": "1.0.0",
+  "description": "Bot para banir e desbanir no Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  }
+}
