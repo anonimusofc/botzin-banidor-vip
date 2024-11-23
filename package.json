@@ -1,12 +1,17 @@
 {
-  "name": "botzin-banidor-vip",
+  "name": "telegram-ban-bot",
   "version": "1.0.0",
-  "description": "Bot para banir e desbanir no Telegram",
+  "description": "Bot para banir e desbanir números no Telegram",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "telegraf": "^4.12.2"
-  }
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
 }
